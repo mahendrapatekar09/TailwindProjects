@@ -39,7 +39,7 @@ function App() {
 <a href="https://www.google.com" class="bg-gradient-to-r from-pink-400 to-yellow-500 hover:from-green-500 hover:to-blue-500 rounded-md border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2 " >search logo</a>
        
 <div class="py-8 px-8 max-w-sm mx-auto mt-12 bg-gray-300 rounded-xl shadow-md space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
-  <img class="block mx-auto h-24 rounded-full sm:mx-0 sm:flex-shrink-0" src="D:\New_Tailwinds\TailwindProjects\Project1\my-project\img\WhatsApp Image 2021-06-06 at 2.17.34 AM (1).jpeg" alt="Woman's Face"></img>
+  <img class="block mx-auto h-24 rounded-full sm:mx-0 sm:flex-shrink-0" src="/Project1/my-project/img/WhatsApp Image 2021-06-06 at 2.17.34 AM (1).jpeg" alt="Woman's Face"></img>
   <div class="text-center space-y-2 sm:text-left">
     <div class="space-y-0.5">
       <p class="text-lg text-red-500 font-semibold">
