@@ -34,7 +34,7 @@ SUBMIT
 </button>
 
 <div>
-  <img src="/Project1/my-project/src/img/2.png w-15 h-15"></img>
+  <img src="/img/2.png w-15 h-15"></img>
 </div>
     
     </div>
