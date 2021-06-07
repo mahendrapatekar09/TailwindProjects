@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 
+
 function App() {
   return (
     <div className="App"> 
@@ -33,10 +34,6 @@ function App() {
 SUBMIT
 </button>
 
-<div>
-  <img src="/img/2.png w-15 h-15"></img>
-</div>
-    
     </div>
   );
 }
