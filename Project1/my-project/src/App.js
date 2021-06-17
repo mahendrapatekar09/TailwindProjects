@@ -52,7 +52,7 @@ function App() {
 SUBMIT
 </button>
 <div >
-<div class="max-w-md mx-auto dark:bg-gray-700 mt-7 my-auto bg-gray-300 rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+<div class="w-md mx-auto dark:bg-gray-700 mt-7 my-auto bg-gray-300 rounded-xl shadow-md overflow-hidden md:max-w-2xl">
   <div class="md:flex ">
     <div class="md:flex-shrink-0">
       <img class="h-48 w-full object-cover md:h-full md:w-48 sm:h-48 " src="1.jpeg" alt="Man looking at item at a store"></img>
