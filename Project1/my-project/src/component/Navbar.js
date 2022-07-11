@@ -3,9 +3,9 @@ import React from 'react'
 export default function Navbar() {
   return (
     
-        <nav class ="pt-1 mt-12 bg-gray-900 text-white hover:bg-green-200">
+        <nav class ="pt-1 mt-12 bg-gray-900 text-white hover:bg-green-200 hover:text-red-500">
   
-  <ul class="flex flex-row-reverse  space-x-4 space-x-reverse mx-10 ">
+  <ul class="flex flex-row-right  space-x-4 space-x mx-10 ">
     <button  class="flex">
       
   <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -21,10 +21,10 @@ export default function Navbar() {
 <img  src="logo192.png "></img>
 
 
-</div>
+</div  >
 
-    <li class='reverse'>
-      <a class="hover:text-purple-900 " >HOME</a>
+    <li >
+      <a class="hover:text-purple-900 ">HOME</a> 
       </li> 
       <li >
       <a class="hover:text-purple-900 ">CONTACT</a>
@@ -35,8 +35,12 @@ export default function Navbar() {
       <li >
       <a class="hover:text-purple-900">EMAIL</a>
       </li> 
-      
+      <form class="flex ">
+        <input class="form-control me-2 bg-gray-300 absolute right-14  " type="search"placeholder="search "aria-label='search'/>
+        <button class='border-2-black-500 absolute right-1 rounded-full' type='submit '>search</button>
+    </form>
     </ul> 
+  
     
     </nav>
 
