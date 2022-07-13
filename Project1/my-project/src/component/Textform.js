@@ -4,14 +4,16 @@ import React ,{useState} from 'react';
 export default function Textform
     () {
         const handleupclick =() =>{
-            console.log("uppercase was clicked");
-            setText('you have clicked on handleupclick ')
+          //  console.log("uppercase was clicked " +text);
+            let newtext=text.toLocaleUpperCase();
+            setText(newtext);
         }
-        const handleOnChange=() =>
+        const handleOnChange=(event) =>
         {
-            console.log("on change");
+          //  console.log("on change");
+            setText(event.target.value)
         }
-        const [text, setText] = useState('enter text here');
+        const [text, setText] = useState('');
   return (
     <div>
 <h1> Enter text</h1>
@@ -21,9 +23,10 @@ export default function Textform
  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white
   dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Your message..." value={text} onChange={handleOnChange}></textarea>
    <div>
-   <button className='bg-blue-300 ml-8 rounded text-white border-solid border-2 border-indigo-600 hover:bg-indigo-900'onClickCapture={handleupclick}>convert to upercase</button>
+   <button class='bg-blue-300 ml-8 rounded text-white border-solid border-2 border-indigo-600 hover:bg-indigo-900'onClickCapture={handleupclick}>convert to uppercase</button>
    </div>
     </div>
     
   )
 }
+ 
